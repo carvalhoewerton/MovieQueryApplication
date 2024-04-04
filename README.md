@@ -8,7 +8,7 @@ Angular for the frontend
 
 
 <h2>How to run Angular:</h2>
-Install all the required dependencies: npm install Execute the project: npm run start<br>
+Install all the required dependencies: npm install <br>Execute the project: npm run start<br>
 
 <h2>How to run Spring:</h2>
 Verify you have Java installed in your machine, then:<br>
