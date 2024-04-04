@@ -1,0 +1,20 @@
+<div class="box">
+  Welcome to this application. Here you can make a query about a film. Please type a movie:
+  <input type="text" [(ngModel)]="movieName">
+  <button (click)="search(movieName)">Search</button>
+</div>
+
+<div class="main" *ngIf="reachedMovie && !showBug">
+  <div class="textos">
+    <h1>{{ reachedMovie.Title }} by {{ reachedMovie.Director }} ({{ reachedMovie.Year }})</h1>
+    <h2>{{ reachedMovie.Genre }} | Metascore: {{ reachedMovie.Metascore }}</h2>
+    <p>{{ reachedMovie.Plot }}</p>
+  </div>
+  <div class="img">
+    <img [src]="reachedMovie.Poster" alt="Movie Poster">
+  </div>
+</div>
+
+<div class="bug" *ngIf="showBug">
+  <p>No movie found. Please try another search term.</p>
+</div>

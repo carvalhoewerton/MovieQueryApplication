@@ -1,0 +1,87 @@
+.box {
+  width: 847px;
+  height: 45px;
+  background-color: #445565;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(179, 7, 59, 0.16), 0 3px 6px rgba(0, 24, 12, 0.23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main {
+  width: 847px;
+  height: 363px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 847px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 180px;
+  background-color: #445565;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(1, 41, 13, 0.16), 0 3px 6px rgba(0, 24, 12, 0.23);
+  position: relative;
+}
+
+.img {
+  height: 317px;
+  width: 208px;
+  background-color: white;
+  margin-right: 577px;
+  margin-top: -265px;
+  img{
+    max-height: 317px;
+    max-width: 208px;
+  }
+}
+
+.main > h1 {
+  color: white;
+  font-weight: 700;
+  margin-left: 248px;
+  margin-bottom: 300px;
+}
+
+.main > h2 {
+  margin-bottom: 0;
+  margin-left: 248px;
+  font-weight: 500px;
+}
+
+.textos {
+  margin-left: 276px;
+}
+
+.textos > p {
+  font-weight: 600;
+}
+.example-form-field {
+  width: 200px;
+  height: 50px;
+}
+.box>input{
+  margin-left:10px;
+}
+
+.bug{
+  width: 847px;
+  height: 363px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 847px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 180px;
+  background-color: #445565;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px r
+}
